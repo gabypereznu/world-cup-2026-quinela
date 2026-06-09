@@ -5,6 +5,8 @@ export interface Match {
   home: string;
   away: string;
   placeholder?: boolean;
+  kickoff?: string;
+  locked: boolean;
   homeLabel: string;
   awayLabel: string;
   result: { home: number; away: number } | null;

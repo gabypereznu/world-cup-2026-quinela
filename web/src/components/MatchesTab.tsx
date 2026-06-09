@@ -73,6 +73,9 @@ export default function MatchesTab({ matches, standings }: Props) {
                 <span className="match-card__id">{match.id}</span>
                 <span className="match-card__date">{formatDate(match.date)}</span>
                 <span className="match-card__stage">{match.stage}</span>
+                {match.locked && !match.scored && (
+                  <span className="match-card__lock">Locked</span>
+                )}
               </div>
               <div className="match-card__teams">
                 <span className="match-card__team">{match.homeLabel}</span>

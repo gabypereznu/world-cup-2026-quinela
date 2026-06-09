@@ -3,6 +3,7 @@ import { dirname, join } from "path";
 import { fileURLToPath } from "url";
 import { loadFlags, teamKey, normalizePrediction } from "./lib/countries.mjs";
 import { scoreMatch } from "./lib/scoring.mjs";
+import { isMatchLocked } from "./lib/match-lock.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -39,6 +40,7 @@ function buildLeaderboard(fixtures, results, participants, rules) {
       awayLabel,
       result: result ?? null,
       scored: Boolean(result),
+      locked: isMatchLocked(match.kickoff),
     };
   });
 

@@ -177,6 +177,11 @@
   color: var(--accent);
 }
 
+.match-card__lock {
+  font-weight: 600;
+  color: rgba(255, 200, 120, 0.95);
+}
+
 .match-card__teams {
   display: grid;
   grid-template-columns: 1fr auto 1fr;

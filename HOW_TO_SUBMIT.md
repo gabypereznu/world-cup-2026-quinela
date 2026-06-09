@@ -29,9 +29,17 @@
 ## Rules
 
 - Predict goals for **both teams** in every match (integers ≥ 0)
-- Picks lock at **kickoff** — submit before the match starts
-- Knockout slots (M73+) use placeholder labels until real teams are known; update those picks when the bracket is set
+- **Picks lock at kickoff** — each match locks individually when it starts (see below)
+- Knockout slots (M73+) use placeholder labels until real teams are known; you can submit those picks later, before each match kicks off
 - Do **not** rename countries or remove emoji prefixes
+
+### How pick locking works
+
+- Locking is **per match**, not one deadline for the whole file.
+- If Mexico vs South Africa (M1) already kicked off, you **cannot change M1** — but you can still edit M73 or any match that has not started.
+- On push to `main`, CI compares your changes to the previous version and **fails the deploy** if you changed picks for a match that already kicked off.
+- Updating `results.json` (real scores) does not trigger pick validation.
+- Run `npm run validate` locally before pushing to catch late picks early.
 
 ## Scoring
 

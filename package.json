@@ -3,6 +3,8 @@
   "private": true,
   "scripts": {
     "score": "node scripts/score.mjs",
+    "validate": "node scripts/validate-picks.mjs",
+    "add-kickoffs": "node scripts/add-kickoffs.mjs",
     "generate-template": "node scripts/generate-template.mjs",
     "build": "npm run score && cd web && npm run build",
     "dev": "npm run score && cd web && npm run dev"
