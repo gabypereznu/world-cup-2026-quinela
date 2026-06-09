@@ -1,0 +1,40 @@
+:root {
+  --bg: #3d0a6b;
+  --bg-gradient: linear-gradient(165deg, #2d0650 0%, #5c1094 45%, #820ad1 100%);
+  --surface: rgba(255, 255, 255, 0.1);
+  --surface-hover: rgba(255, 255, 255, 0.16);
+  --border: rgba(255, 255, 255, 0.18);
+  --text: #ffffff;
+  --text-muted: rgba(255, 255, 255, 0.72);
+  --accent: #c77dff;
+  --accent-soft: rgba(255, 255, 255, 0.14);
+  --gold: #f5c518;
+  --silver: #b8c0cc;
+  --bronze: #cd7f32;
+  --success: #2ecc71;
+  --radius: 12px;
+  --font: "Inter", system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  background: var(--bg);
+  background-image: var(--bg-gradient);
+  background-attachment: fixed;
+  color: var(--text);
+  line-height: 1.5;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+button {
+  font-family: inherit;
+}

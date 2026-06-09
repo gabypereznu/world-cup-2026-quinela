@@ -1,0 +1,10 @@
+{
+  "name": "world-cup-2026-quinela",
+  "private": true,
+  "scripts": {
+    "score": "node scripts/score.mjs",
+    "generate-template": "node scripts/generate-template.mjs",
+    "build": "npm run score && cd web && npm run build",
+    "dev": "npm run score && cd web && npm run dev"
+  }
+}

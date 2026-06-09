@@ -1,0 +1,7 @@
+{
+  "exactScore": 5,
+  "correctGoalDifference": 3,
+  "correctWinnerOrDraw": 2,
+  "oneTeamExactGoalsBonus": 1,
+  "skipBonusOnExactScore": true
+}
