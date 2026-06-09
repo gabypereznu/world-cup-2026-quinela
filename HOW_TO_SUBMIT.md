@@ -17,8 +17,6 @@
 }
 ```
 
-Each match uses **country names with flag emojis** — not `home` / `away`.
-
 ## Field guide
 
 | Field | Example | Notes |

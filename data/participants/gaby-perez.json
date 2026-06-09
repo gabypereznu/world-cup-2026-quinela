@@ -1,0 +1,423 @@
+{
+  "id": "gaby-perez",
+  "name": "Gaby",
+  "slack": "@gaby.perez",
+  "predictions": {
+    "M1": {
+      "🇲🇽 Mexico": 0,
+      "🇿🇦 South Africa": 0
+    },
+    "M2": {
+      "🇰🇷 Korea Republic": 0,
+      "🇨🇿 Czechia": 0
+    },
+    "M3": {
+      "🇨🇦 Canada": 0,
+      "🇧🇦 Bosnia and Herzegovina": 0
+    },
+    "M4": {
+      "🇺🇸 USA": 0,
+      "🇵🇾 Paraguay": 0
+    },
+    "M5": {
+      "🇭🇹 Haiti": 0,
+      "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland": 0
+    },
+    "M6": {
+      "🇦🇺 Australia": 0,
+      "🇹🇷 Türkiye": 0
+    },
+    "M7": {
+      "🇧🇷 Brazil": 0,
+      "🇲🇦 Morocco": 0
+    },
+    "M8": {
+      "🇶🇦 Qatar": 0,
+      "🇨🇭 Switzerland": 0
+    },
+    "M9": {
+      "🇨🇮 Côte d'Ivoire": 0,
+      "🇪🇨 Ecuador": 0
+    },
+    "M10": {
+      "🇩🇪 Germany": 0,
+      "🇨🇼 Curaçao": 0
+    },
+    "M11": {
+      "🇳🇱 Netherlands": 0,
+      "🇯🇵 Japan": 0
+    },
+    "M12": {
+      "🇸🇪 Sweden": 0,
+      "🇹🇳 Tunisia": 0
+    },
+    "M13": {
+      "🇸🇦 Saudi Arabia": 0,
+      "🇺🇾 Uruguay": 0
+    },
+    "M14": {
+      "🇪🇸 Spain": 0,
+      "🇨🇻 Cabo Verde": 0
+    },
+    "M15": {
+      "🇮🇷 IR Iran": 0,
+      "🇳🇿 New Zealand": 0
+    },
+    "M16": {
+      "🇧🇪 Belgium": 0,
+      "🇪🇬 Egypt": 0
+    },
+    "M17": {
+      "🇫🇷 France": 0,
+      "🇸🇳 Senegal": 0
+    },
+    "M18": {
+      "🇮🇶 Iraq": 0,
+      "🇳🇴 Norway": 0
+    },
+    "M19": {
+      "🇦🇷 Argentina": 0,
+      "🇩🇿 Algeria": 0
+    },
+    "M20": {
+      "🇦🇹 Austria": 0,
+      "🇯🇴 Jordan": 0
+    },
+    "M21": {
+      "🇬🇭 Ghana": 0,
+      "🇵🇦 Panama": 0
+    },
+    "M22": {
+      "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England": 0,
+      "🇭🇷 Croatia": 0
+    },
+    "M23": {
+      "🇵🇹 Portugal": 0,
+      "🇨🇩 Congo DR": 0
+    },
+    "M24": {
+      "🇺🇿 Uzbekistan": 0,
+      "🇨🇴 Colombia": 0
+    },
+    "M25": {
+      "🇨🇿 Czechia": 0,
+      "🇿🇦 South Africa": 0
+    },
+    "M26": {
+      "🇨🇭 Switzerland": 0,
+      "🇧🇦 Bosnia and Herzegovina": 0
+    },
+    "M27": {
+      "🇨🇦 Canada": 0,
+      "🇶🇦 Qatar": 0
+    },
+    "M28": {
+      "🇲🇽 Mexico": 0,
+      "🇰🇷 Korea Republic": 0
+    },
+    "M29": {
+      "🇧🇷 Brazil": 0,
+      "🇭🇹 Haiti": 0
+    },
+    "M30": {
+      "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland": 0,
+      "🇲🇦 Morocco": 0
+    },
+    "M31": {
+      "🇹🇷 Türkiye": 0,
+      "🇵🇾 Paraguay": 0
+    },
+    "M32": {
+      "🇺🇸 USA": 0,
+      "🇦🇺 Australia": 0
+    },
+    "M33": {
+      "🇩🇪 Germany": 0,
+      "🇨🇮 Côte d'Ivoire": 0
+    },
+    "M34": {
+      "🇪🇨 Ecuador": 0,
+      "🇨🇼 Curaçao": 0
+    },
+    "M35": {
+      "🇳🇱 Netherlands": 0,
+      "🇸🇪 Sweden": 0
+    },
+    "M36": {
+      "🇹🇳 Tunisia": 0,
+      "🇯🇵 Japan": 0
+    },
+    "M37": {
+      "🇺🇾 Uruguay": 0,
+      "🇨🇻 Cabo Verde": 0
+    },
+    "M38": {
+      "🇪🇸 Spain": 0,
+      "🇸🇦 Saudi Arabia": 0
+    },
+    "M39": {
+      "🇧🇪 Belgium": 0,
+      "🇮🇷 IR Iran": 0
+    },
+    "M40": {
+      "🇳🇿 New Zealand": 0,
+      "🇪🇬 Egypt": 0
+    },
+    "M41": {
+      "🇳🇴 Norway": 0,
+      "🇸🇳 Senegal": 0
+    },
+    "M42": {
+      "🇫🇷 France": 0,
+      "🇮🇶 Iraq": 0
+    },
+    "M43": {
+      "🇦🇷 Argentina": 0,
+      "🇦🇹 Austria": 0
+    },
+    "M44": {
+      "🇯🇴 Jordan": 0,
+      "🇩🇿 Algeria": 0
+    },
+    "M45": {
+      "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England": 0,
+      "🇬🇭 Ghana": 0
+    },
+    "M46": {
+      "🇵🇦 Panama": 0,
+      "🇭🇷 Croatia": 0
+    },
+    "M47": {
+      "🇵🇹 Portugal": 0,
+      "🇺🇿 Uzbekistan": 0
+    },
+    "M48": {
+      "🇨🇴 Colombia": 0,
+      "🇨🇩 Congo DR": 0
+    },
+    "M49": {
+      "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland": 0,
+      "🇧🇷 Brazil": 0
+    },
+    "M50": {
+      "🇲🇦 Morocco": 0,
+      "🇭🇹 Haiti": 0
+    },
+    "M51": {
+      "🇨🇭 Switzerland": 0,
+      "🇨🇦 Canada": 0
+    },
+    "M52": {
+      "🇧🇦 Bosnia and Herzegovina": 0,
+      "🇶🇦 Qatar": 0
+    },
+    "M53": {
+      "🇨🇿 Czechia": 0,
+      "🇲🇽 Mexico": 0
+    },
+    "M54": {
+      "🇿🇦 South Africa": 0,
+      "🇰🇷 Korea Republic": 0
+    },
+    "M55": {
+      "🇨🇼 Curaçao": 0,
+      "🇨🇮 Côte d'Ivoire": 0
+    },
+    "M56": {
+      "🇪🇨 Ecuador": 0,
+      "🇩🇪 Germany": 0
+    },
+    "M57": {
+      "🇯🇵 Japan": 0,
+      "🇸🇪 Sweden": 0
+    },
+    "M58": {
+      "🇹🇳 Tunisia": 0,
+      "🇳🇱 Netherlands": 0
+    },
+    "M59": {
+      "🇹🇷 Türkiye": 0,
+      "🇺🇸 USA": 0
+    },
+    "M60": {
+      "🇵🇾 Paraguay": 0,
+      "🇦🇺 Australia": 0
+    },
+    "M61": {
+      "🇳🇴 Norway": 0,
+      "🇫🇷 France": 0
+    },
+    "M62": {
+      "🇸🇳 Senegal": 0,
+      "🇮🇶 Iraq": 0
+    },
+    "M63": {
+      "🇪🇬 Egypt": 0,
+      "🇮🇷 IR Iran": 0
+    },
+    "M64": {
+      "🇳🇿 New Zealand": 0,
+      "🇧🇪 Belgium": 0
+    },
+    "M65": {
+      "🇨🇻 Cabo Verde": 0,
+      "🇸🇦 Saudi Arabia": 0
+    },
+    "M66": {
+      "🇺🇾 Uruguay": 0,
+      "🇪🇸 Spain": 0
+    },
+    "M67": {
+      "🇵🇦 Panama": 0,
+      "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England": 0
+    },
+    "M68": {
+      "🇭🇷 Croatia": 0,
+      "🇬🇭 Ghana": 0
+    },
+    "M69": {
+      "🇩🇿 Algeria": 0,
+      "🇦🇹 Austria": 0
+    },
+    "M70": {
+      "🇯🇴 Jordan": 0,
+      "🇦🇷 Argentina": 0
+    },
+    "M71": {
+      "🇨🇴 Colombia": 0,
+      "🇵🇹 Portugal": 0
+    },
+    "M72": {
+      "🇨🇩 Congo DR": 0,
+      "🇺🇿 Uzbekistan": 0
+    },
+    "M73": {
+      "🏳️ Group A runners-up": 0,
+      "🏳️ Group B runners-up": 0
+    },
+    "M74": {
+      "🏳️ Group E winners": 0,
+      "🏳️ Third place (A/B/C/D/F)": 0
+    },
+    "M75": {
+      "🏳️ Group F winners": 0,
+      "🏳️ Group C runners-up": 0
+    },
+    "M76": {
+      "🏳️ Group C winners": 0,
+      "🏳️ Group F runners-up": 0
+    },
+    "M77": {
+      "🏳️ Group I winners": 0,
+      "🏳️ Third place (C/D/F/G/H)": 0
+    },
+    "M78": {
+      "🏳️ Group E runners-up": 0,
+      "🏳️ Group I runners-up": 0
+    },
+    "M79": {
+      "🏳️ Group A winners": 0,
+      "🏳️ Third place (C/E/F/H/I)": 0
+    },
+    "M80": {
+      "🏳️ Group L winners": 0,
+      "🏳️ Third place (E/H/I/J/K)": 0
+    },
+    "M81": {
+      "🏳️ Group D winners": 0,
+      "🏳️ Third place (B/E/F/I/J)": 0
+    },
+    "M82": {
+      "🏳️ Group G winners": 0,
+      "🏳️ Third place (A/E/H/I/J)": 0
+    },
+    "M83": {
+      "🏳️ Group K runners-up": 0,
+      "🏳️ Group L runners-up": 0
+    },
+    "M84": {
+      "🏳️ Group H winners": 0,
+      "🏳️ Group J runners-up": 0
+    },
+    "M85": {
+      "🏳️ Group B winners": 0,
+      "🏳️ Third place (E/F/G/I/J)": 0
+    },
+    "M86": {
+      "🏳️ Group J winners": 0,
+      "🏳️ Group H runners-up": 0
+    },
+    "M87": {
+      "🏳️ Group K winners": 0,
+      "🏳️ Third place (D/E/I/J/L)": 0
+    },
+    "M88": {
+      "🏳️ Group D runners-up": 0,
+      "🏳️ Group G runners-up": 0
+    },
+    "M89": {
+      "🏳️ Winner M74": 0,
+      "🏳️ Winner M77": 0
+    },
+    "M90": {
+      "🏳️ Winner M73": 0,
+      "🏳️ Winner M75": 0
+    },
+    "M91": {
+      "🏳️ Winner M76": 0,
+      "🏳️ Winner M78": 0
+    },
+    "M92": {
+      "🏳️ Winner M79": 0,
+      "🏳️ Winner M80": 0
+    },
+    "M93": {
+      "🏳️ Winner M83": 0,
+      "🏳️ Winner M84": 0
+    },
+    "M94": {
+      "🏳️ Winner M81": 0,
+      "🏳️ Winner M82": 0
+    },
+    "M95": {
+      "🏳️ Winner M86": 0,
+      "🏳️ Winner M88": 0
+    },
+    "M96": {
+      "🏳️ Winner M85": 0,
+      "🏳️ Winner M87": 0
+    },
+    "M97": {
+      "🏳️ Winner M89": 0,
+      "🏳️ Winner M90": 0
+    },
+    "M98": {
+      "🏳️ Winner M93": 0,
+      "🏳️ Winner M94": 0
+    },
+    "M99": {
+      "🏳️ Winner M91": 0,
+      "🏳️ Winner M92": 0
+    },
+    "M100": {
+      "🏳️ Winner M95": 0,
+      "🏳️ Winner M96": 0
+    },
+    "M101": {
+      "🏳️ Winner M97": 0,
+      "🏳️ Winner M98": 0
+    },
+    "M102": {
+      "🏳️ Winner M99": 0,
+      "🏳️ Winner M100": 0
+    },
+    "M103": {
+      "🏳️ Runner-up M101": 0,
+      "🏳️ Runner-up M102": 0
+    },
+    "M104": {
+      "🏳️ Winner M101": 0,
+      "🏳️ Winner M102": 0
+    }
+  }
+}
