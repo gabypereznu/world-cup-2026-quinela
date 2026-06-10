@@ -3,12 +3,57 @@ import type { ScoringRules as Rules } from "../types";
 const TEMPLATE_URL = `${import.meta.env.BASE_URL}data/participant-template.json`;
 const REPO_URL =
   "https://github.com/gabypereznu/world-cup-2026-quinela";
+const INVITE_URL =
+  "https://github.com/gabypereznu/world-cup-2026-quinela/invitations";
 
 export default function InstructionsTab({ rules }: { rules: Rules }) {
   return (
     <div className="instructions">
       <section className="instructions__card">
-        <h2>No GitHub? Start here</h2>
+        <h2>Engineers — push your own picks</h2>
+        <p>
+          If you have repo access, clone, edit your JSON, and push to{" "}
+          <code>main</code>. No PR needed.
+        </p>
+        <p className="instructions__links">
+          <a href={REPO_URL} target="_blank" rel="noreferrer">
+            Open repo
+          </a>
+          {" · "}
+          <a href={INVITE_URL} target="_blank" rel="noreferrer">
+            Accept your invite
+          </a>
+        </p>
+        <ol className="instructions__steps">
+          <li>
+            Check for a collaborator invite (GitHub email or{" "}
+            <a href={INVITE_URL} target="_blank" rel="noreferrer">
+              pending invitations
+            </a>
+            ). No invite? DM <strong>@gaby.perez</strong> on Slack and ask to
+            be added.
+          </li>
+          <li>
+            Clone:{" "}
+            <code>git clone git@github.com:gabypereznu/world-cup-2026-quinela.git</code>
+          </li>
+          <li>
+            Copy <code>data/participants/_template.json</code> to{" "}
+            <code>data/participants/your-name.json</code>
+          </li>
+          <li>
+            Fill your <code>name</code>, <code>slack</code>, and prediction
+            numbers
+          </li>
+          <li>
+            Commit and push:{" "}
+            <code>git add data/participants/your-name.json && git commit -m &quot;Add my picks&quot; && git push origin main</code>
+          </li>
+        </ol>
+      </section>
+
+      <section className="instructions__card">
+        <h2>No GitHub? (PM, Design, etc.)</h2>
         <p>
           PM, Design, and anyone without repo access can play by filling a JSON
           file and sending it to <strong>@gaby.perez</strong> on Slack.
@@ -50,16 +95,6 @@ export default function InstructionsTab({ rules }: { rules: Rules }) {
         <p className="instructions__note">
           Every match from <code>M1</code> to <code>M104</code> works the same
           way.
-        </p>
-      </section>
-
-      <section className="instructions__card">
-        <h2>Have GitHub access?</h2>
-        <p>
-          Clone the repo, copy{" "}
-          <code>data/participants/_template.json</code> to{" "}
-          <code>your-name.json</code>, fill it in, and push to{" "}
-          <code>main</code>.
         </p>
       </section>
 
