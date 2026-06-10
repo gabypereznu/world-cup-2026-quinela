@@ -17,17 +17,39 @@ export default function LeaderboardTab({ standings, matches }: Props) {
 
   if (standings.length === 0) {
     return (
-      <div className="empty">
-        <p>No participants yet.</p>
-        <p className="empty__hint">
-          Add a JSON file in <code>data/participants/</code> and push to main.
-        </p>
+      <div className="leaderboard">
+        <div className="leaderboard__prize">
+          <span className="leaderboard__prize-emoji">🏆</span>
+          <div>
+            <strong>El/LA FIFAS</strong>
+            <p>
+              Top of the table wins the title — bragging rights only, maximum
+              Slack glory until 2030.
+            </p>
+          </div>
+        </div>
+        <div className="empty">
+          <p>No participants yet.</p>
+          <p className="empty__hint">
+            Add a JSON file in <code>data/participants/</code> and push to main.
+          </p>
+        </div>
       </div>
     );
   }
 
   return (
     <div className="leaderboard">
+      <div className="leaderboard__prize">
+        <span className="leaderboard__prize-emoji">🏆</span>
+        <div>
+          <strong>El/LA FIFAS</strong>
+          <p>
+            #1 on this board wins the title — bragging rights only, maximum
+            Slack glory until 2030.
+          </p>
+        </div>
+      </div>
       <p className="section-meta">
         {scoredCount} of {matches.length} matches scored
       </p>
