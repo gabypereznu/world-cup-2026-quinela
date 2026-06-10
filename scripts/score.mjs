@@ -95,6 +95,10 @@ function main() {
   copyFileSync(join(DATA, "fixtures.json"), join(OUT, "fixtures.json"));
   copyFileSync(join(DATA, "results.json"), join(OUT, "results.json"));
   copyFileSync(join(DATA, "countries.json"), join(OUT, "countries.json"));
+  copyFileSync(
+    join(DATA, "participants", "_template.json"),
+    join(OUT, "participant-template.json")
+  );
   writeFileSync(join(OUT, "leaderboard.json"), JSON.stringify(leaderboard, null, 2));
 
   console.log(`Leaderboard written for ${participants.length} participant(s).`);

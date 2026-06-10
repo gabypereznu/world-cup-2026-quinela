@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import type { Leaderboard } from "./types";
 import LeaderboardTab from "./components/LeaderboardTab";
 import MatchesTab from "./components/MatchesTab";
+import InstructionsTab from "./components/InstructionsTab";
 import ScoringRules from "./components/ScoringRules";
 import "./App.css";
 
-type Tab = "matches" | "leaderboard";
+type Tab = "matches" | "leaderboard" | "instructions";
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/leaderboard.json`;
 
@@ -74,14 +75,24 @@ export default function App() {
         >
           Leaderboard
         </button>
+        <button
+          role="tab"
+          className={`tabs__btn ${tab === "instructions" ? "tabs__btn--active" : ""}`}
+          aria-selected={tab === "instructions"}
+          onClick={() => setTab("instructions")}
+        >
+          How to play
+        </button>
       </nav>
 
       <main className="main">
-        {tab === "matches" ? (
+        {tab === "matches" && (
           <MatchesTab matches={data.matches} standings={data.standings} />
-        ) : (
+        )}
+        {tab === "leaderboard" && (
           <LeaderboardTab standings={data.standings} matches={data.matches} />
         )}
+        {tab === "instructions" && <InstructionsTab rules={data.rules} />}
       </main>
 
       <footer className="footer">
