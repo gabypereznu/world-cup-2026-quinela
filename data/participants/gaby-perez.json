@@ -4,79 +4,79 @@
   "slack": "@gaby.perez",
   "predictions": {
     "M1": {
-      "🇲🇽 Mexico": 0,
+      "🇲🇽 Mexico": 2,
       "🇿🇦 South Africa": 0
     },
     "M2": {
-      "🇰🇷 Korea Republic": 0,
-      "🇨🇿 Czechia": 0
+      "🇰🇷 Korea Republic": 2,
+      "🇨🇿 Czechia": 1
     },
     "M3": {
-      "🇨🇦 Canada": 0,
+      "🇨🇦 Canada": 3,
       "🇧🇦 Bosnia and Herzegovina": 0
     },
     "M4": {
-      "🇺🇸 USA": 0,
-      "🇵🇾 Paraguay": 0
+      "🇺🇸 USA": 2,
+      "🇵🇾 Paraguay": 1
     },
     "M5": {
       "🇭🇹 Haiti": 0,
-      "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland": 0
+      "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland": 2
     },
     "M6": {
-      "🇦🇺 Australia": 0,
-      "🇹🇷 Türkiye": 0
+      "🇦🇺 Australia": 2,
+      "🇹🇷 Türkiye": 1
     },
     "M7": {
-      "🇧🇷 Brazil": 0,
-      "🇲🇦 Morocco": 0
+      "🇧🇷 Brazil": 3,
+      "🇲🇦 Morocco": 2
     },
     "M8": {
       "🇶🇦 Qatar": 0,
-      "🇨🇭 Switzerland": 0
+      "🇨🇭 Switzerland": 1
     },
     "M9": {
       "🇨🇮 Côte d'Ivoire": 0,
-      "🇪🇨 Ecuador": 0
+      "🇪🇨 Ecuador": 1
     },
     "M10": {
-      "🇩🇪 Germany": 0,
+      "🇩🇪 Germany": 3,
       "🇨🇼 Curaçao": 0
     },
     "M11": {
-      "🇳🇱 Netherlands": 0,
-      "🇯🇵 Japan": 0
+      "🇳🇱 Netherlands": 1,
+      "🇯🇵 Japan": 2
     },
     "M12": {
-      "🇸🇪 Sweden": 0,
+      "🇸🇪 Sweden": 2,
       "🇹🇳 Tunisia": 0
     },
     "M13": {
       "🇸🇦 Saudi Arabia": 0,
-      "🇺🇾 Uruguay": 0
+      "🇺🇾 Uruguay": 2
     },
     "M14": {
-      "🇪🇸 Spain": 0,
+      "🇪🇸 Spain": 2,
       "🇨🇻 Cabo Verde": 0
     },
     "M15": {
       "🇮🇷 IR Iran": 0,
-      "🇳🇿 New Zealand": 0
+      "🇳🇿 New Zealand": 3
     },
     "M16": {
-      "🇧🇪 Belgium": 0,
+      "🇧🇪 Belgium": 1,
       "🇪🇬 Egypt": 0
     },
     "M17": {
-      "🇫🇷 France": 0,
+      "🇫🇷 France": 2,
       "🇸🇳 Senegal": 0
     },
     "M18": {
       "🇮🇶 Iraq": 0,
-      "🇳🇴 Norway": 0
+      "🇳🇴 Norway": 3
     },
     "M19": {
-      "🇦🇷 Argentina": 0,
+      "🇦🇷 Argentina": 1,
       "🇩🇿 Algeria": 0
     },
     "M20": {
@@ -84,39 +84,39 @@
       "🇯🇴 Jordan": 0
     },
     "M21": {
-      "🇬🇭 Ghana": 0,
+      "🇬🇭 Ghana": 1,
       "🇵🇦 Panama": 0
     },
     "M22": {
       "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England": 0,
-      "🇭🇷 Croatia": 0
+      "🇭🇷 Croatia": 1
     },
     "M23": {
-      "🇵🇹 Portugal": 0,
+      "🇵🇹 Portugal": 2,
       "🇨🇩 Congo DR": 0
     },
     "M24": {
       "🇺🇿 Uzbekistan": 0,
-      "🇨🇴 Colombia": 0
+      "🇨🇴 Colombia": 2
     },
     "M25": {
-      "🇨🇿 Czechia": 0,
+      "🇨🇿 Czechia": 1,
       "🇿🇦 South Africa": 0
     },
     "M26": {
-      "🇨🇭 Switzerland": 0,
+      "🇨🇭 Switzerland": 1,
       "🇧🇦 Bosnia and Herzegovina": 0
     },
     "M27": {
-      "🇨🇦 Canada": 0,
+      "🇨🇦 Canada": 1,
       "🇶🇦 Qatar": 0
     },
     "M28": {
-      "🇲🇽 Mexico": 0,
+      "🇲🇽 Mexico": 1,
       "🇰🇷 Korea Republic": 0
     },
     "M29": {
-      "🇧🇷 Brazil": 0,
+      "🇧🇷 Brazil": 3,
       "🇭🇹 Haiti": 0
     },
     "M30": {
@@ -148,63 +148,63 @@
       "🇯🇵 Japan": 0
     },
     "M37": {
-      "🇺🇾 Uruguay": 0,
+      "🇺🇾 Uruguay": 2,
       "🇨🇻 Cabo Verde": 0
     },
     "M38": {
-      "🇪🇸 Spain": 0,
+      "🇪🇸 Spain": 2,
       "🇸🇦 Saudi Arabia": 0
     },
     "M39": {
-      "🇧🇪 Belgium": 0,
+      "🇧🇪 Belgium": 1,
       "🇮🇷 IR Iran": 0
     },
     "M40": {
-      "🇳🇿 New Zealand": 0,
+      "🇳🇿 New Zealand": 1,
       "🇪🇬 Egypt": 0
     },
     "M41": {
-      "🇳🇴 Norway": 0,
+      "🇳🇴 Norway": 2,
       "🇸🇳 Senegal": 0
     },
     "M42": {
-      "🇫🇷 France": 0,
+      "🇫🇷 France": 1,
       "🇮🇶 Iraq": 0
     },
     "M43": {
-      "🇦🇷 Argentina": 0,
+      "🇦🇷 Argentina": 2,
       "🇦🇹 Austria": 0
     },
     "M44": {
       "🇯🇴 Jordan": 0,
-      "🇩🇿 Algeria": 0
+      "🇩🇿 Algeria": 1
     },
     "M45": {
-      "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England": 0,
+      "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England": 1,
       "🇬🇭 Ghana": 0
     },
     "M46": {
       "🇵🇦 Panama": 0,
-      "🇭🇷 Croatia": 0
+      "🇭🇷 Croatia": 1
     },
     "M47": {
-      "🇵🇹 Portugal": 0,
+      "🇵🇹 Portugal": 2,
       "🇺🇿 Uzbekistan": 0
     },
     "M48": {
-      "🇨🇴 Colombia": 0,
+      "🇨🇴 Colombia": 2,
       "🇨🇩 Congo DR": 0
     },
     "M49": {
       "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Scotland": 0,
-      "🇧🇷 Brazil": 0
+      "🇧🇷 Brazil": 2
     },
     "M50": {
-      "🇲🇦 Morocco": 0,
+      "🇲🇦 Morocco": 1,
       "🇭🇹 Haiti": 0
     },
     "M51": {
-      "🇨🇭 Switzerland": 0,
+      "🇨🇭 Switzerland": 1,
       "🇨🇦 Canada": 0
     },
     "M52": {
@@ -213,42 +213,42 @@
     },
     "M53": {
       "🇨🇿 Czechia": 0,
-      "🇲🇽 Mexico": 0
+      "🇲🇽 Mexico": 1
     },
     "M54": {
       "🇿🇦 South Africa": 0,
-      "🇰🇷 Korea Republic": 0
+      "🇰🇷 Korea Republic": 1
     },
     "M55": {
       "🇨🇼 Curaçao": 0,
-      "🇨🇮 Côte d'Ivoire": 0
+      "🇨🇮 Côte d'Ivoire": 1
     },
     "M56": {
       "🇪🇨 Ecuador": 0,
-      "🇩🇪 Germany": 0
+      "🇩🇪 Germany": 1
     },
     "M57": {
-      "🇯🇵 Japan": 0,
-      "🇸🇪 Sweden": 0
+      "🇯🇵 Japan": 2,
+      "🇸🇪 Sweden": 1
     },
     "M58": {
       "🇹🇳 Tunisia": 0,
-      "🇳🇱 Netherlands": 0
+      "🇳🇱 Netherlands": 1
     },
     "M59": {
       "🇹🇷 Türkiye": 0,
-      "🇺🇸 USA": 0
+      "🇺🇸 USA": 2
     },
     "M60": {
-      "🇵🇾 Paraguay": 0,
-      "🇦🇺 Australia": 0
+      "🇵🇾 Paraguay": 1,
+      "🇦🇺 Australia": 2
     },
     "M61": {
-      "🇳🇴 Norway": 0,
-      "🇫🇷 France": 0
+      "🇳🇴 Norway": 2,
+      "🇫🇷 France": 1
     },
     "M62": {
-      "🇸🇳 Senegal": 0,
+      "🇸🇳 Senegal": 1,
       "🇮🇶 Iraq": 0
     },
     "M63": {
@@ -256,7 +256,7 @@
       "🇮🇷 IR Iran": 0
     },
     "M64": {
-      "🇳🇿 New Zealand": 0,
+      "🇳🇿 New Zealand": 1,
       "🇧🇪 Belgium": 0
     },
     "M65": {
@@ -264,28 +264,28 @@
       "🇸🇦 Saudi Arabia": 0
     },
     "M66": {
-      "🇺🇾 Uruguay": 0,
-      "🇪🇸 Spain": 0
+      "🇺🇾 Uruguay": 1,
+      "🇪🇸 Spain": 2
     },
     "M67": {
       "🇵🇦 Panama": 0,
-      "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England": 0
+      "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England": 1
     },
     "M68": {
-      "🇭🇷 Croatia": 0,
+      "🇭🇷 Croatia": 2,
       "🇬🇭 Ghana": 0
     },
     "M69": {
       "🇩🇿 Algeria": 0,
-      "🇦🇹 Austria": 0
+      "🇦🇹 Austria": 1
     },
     "M70": {
       "🇯🇴 Jordan": 0,
-      "🇦🇷 Argentina": 0
+      "🇦🇷 Argentina": 2
     },
     "M71": {
-      "🇨🇴 Colombia": 0,
-      "🇵🇹 Portugal": 0
+      "🇨🇴 Colombia": 1,
+      "🇵🇹 Portugal": 2
     },
     "M72": {
       "🇨🇩 Congo DR": 0,
