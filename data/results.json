@@ -1,1 +1,18 @@
-{}
+{
+  "M1": { "home": 2, "away": 0 },
+  "M2": { "home": 2, "away": 1 },
+  "M3": { "home": 1, "away": 1 },
+  "M4": { "home": 4, "away": 1 },
+  "M5": { "home": 0, "away": 1 },
+  "M6": { "home": 2, "away": 0 },
+  "M7": { "home": 1, "away": 1 },
+  "M8": { "home": 1, "away": 1 },
+  "M9": { "home": 1, "away": 0 },
+  "M10": { "home": 7, "away": 1 },
+  "M11": { "home": 2, "away": 2 },
+  "M12": { "home": 5, "away": 1 },
+  "M13": { "home": 1, "away": 1 },
+  "M14": { "home": 0, "away": 0 },
+  "M15": { "home": 2, "away": 2 },
+  "M16": { "home": 1, "away": 1 }
+}
