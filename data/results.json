@@ -22,5 +22,22 @@
   "M21": { "home": 1, "away": 0 },
   "M22": { "home": 4, "away": 2 },
   "M23": { "home": 1, "away": 1 },
-  "M24": { "home": 1, "away": 3 }
+  "M24": { "home": 1, "away": 3 },
+  "M25": { "home": 1, "away": 1 },
+  "M26": { "home": 4, "away": 1 },
+  "M27": { "home": 6, "away": 0 },
+  "M28": { "home": 1, "away": 0 },
+  "M29": { "home": 3, "away": 0 },
+  "M30": { "home": 0, "away": 1 },
+  "M31": { "home": 0, "away": 1 },
+  "M32": { "home": 2, "away": 0 },
+  "M33": { "home": 2, "away": 1 },
+  "M34": { "home": 0, "away": 0 },
+  "M35": { "home": 5, "away": 1 },
+  "M36": { "home": 0, "away": 4 },
+  "M37": { "home": 2, "away": 2 },
+  "M38": { "home": 4, "away": 0 },
+  "M39": { "home": 0, "away": 0 },
+  "M40": { "home": 1, "away": 3 },
+  "M43": { "home": 1, "away": 0 }
 }
