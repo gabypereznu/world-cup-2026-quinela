@@ -6,7 +6,7 @@ import InstructionsTab from "./components/InstructionsTab";
 import ScoringRules from "./components/ScoringRules";
 import "./App.css";
 
-type Tab = "matches" | "leaderboard" | "instructions";
+type Tab = "group" | "knockout" | "leaderboard" | "instructions";
 
 const DATA_URL = `${import.meta.env.BASE_URL}data/leaderboard.json`;
 
@@ -61,11 +61,19 @@ export default function App() {
       <nav className="tabs" role="tablist">
         <button
           role="tab"
-          className={`tabs__btn ${tab === "matches" ? "tabs__btn--active" : ""}`}
-          aria-selected={tab === "matches"}
-          onClick={() => setTab("matches")}
+          className={`tabs__btn ${tab === "group" ? "tabs__btn--active" : ""}`}
+          aria-selected={tab === "group"}
+          onClick={() => setTab("group")}
         >
-          All matches
+          Group stage
+        </button>
+        <button
+          role="tab"
+          className={`tabs__btn ${tab === "knockout" ? "tabs__btn--active" : ""}`}
+          aria-selected={tab === "knockout"}
+          onClick={() => setTab("knockout")}
+        >
+          Knockout
         </button>
         <button
           role="tab"
@@ -86,8 +94,11 @@ export default function App() {
       </nav>
 
       <main className="main">
-        {tab === "matches" && (
-          <MatchesTab matches={data.matches} standings={data.standings} />
+        {tab === "group" && (
+          <MatchesTab matches={data.matches} standings={data.standings} phase="group" />
+        )}
+        {tab === "knockout" && (
+          <MatchesTab matches={data.matches} standings={data.standings} phase="knockout" />
         )}
         {tab === "leaderboard" && (
           <LeaderboardTab standings={data.standings} matches={data.matches} />

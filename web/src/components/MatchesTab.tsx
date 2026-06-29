@@ -1,9 +1,11 @@
 import { useMemo, useState } from "react";
 import type { Match, Standing } from "../types";
+import { type MatchPhase, matchesPhase } from "../lib/phases";
 
 interface Props {
   matches: Match[];
   standings: Standing[];
+  phase: MatchPhase;
 }
 
 function formatDate(dateStr: string) {
@@ -20,15 +22,21 @@ function scoreLine(result: { home: number; away: number } | null) {
   return `${result.home} – ${result.away}`;
 }
 
-export default function MatchesTab({ matches, standings }: Props) {
+export default function MatchesTab({ matches, standings, phase }: Props) {
+  const phaseMatches = useMemo(
+    () => matches.filter((m) => matchesPhase(m, phase)),
+    [matches, phase]
+  );
+
   const stages = useMemo(() => {
-    const set = new Set(matches.map((m) => m.stage));
+    const set = new Set(phaseMatches.map((m) => m.stage));
     return Array.from(set);
-  }, [matches]);
+  }, [phaseMatches]);
 
   const [filter, setFilter] = useState<string>("all");
 
-  const filtered = filter === "all" ? matches : matches.filter((m) => m.stage === filter);
+  const filtered =
+    filter === "all" ? phaseMatches : phaseMatches.filter((m) => m.stage === filter);
 
   const topByMatch = useMemo(() => {
     const map: Record<string, { name: string; points: number }[]> = {};
@@ -46,6 +54,12 @@ export default function MatchesTab({ matches, standings }: Props) {
 
   return (
     <div className="matches">
+      {phase === "knockout" && (
+        <p className="matches__intro">
+          Round of 32 through the final. Update knockout picks in your participant
+          file before each match kicks off.
+        </p>
+      )}
       <div className="matches__filters">
         <button
           className={`filter-btn ${filter === "all" ? "filter-btn--active" : ""}`}

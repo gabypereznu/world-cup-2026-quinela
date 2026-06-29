@@ -30,7 +30,7 @@
 
 - Predict goals for **both teams** in every match (integers ≥ 0)
 - **Picks lock at kickoff** — each match locks individually when it starts (see below)
-- Knockout slots (M73+) use placeholder labels until real teams are known; you can submit those picks later, before each match kicks off
+- Knockout matches (M73+) are in the same file — update those picks before each match kicks off as teams are confirmed
 - Do **not** rename countries or remove emoji prefixes
 
 ### How pick locking works

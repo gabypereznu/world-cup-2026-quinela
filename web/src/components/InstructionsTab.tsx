@@ -107,8 +107,8 @@ export default function InstructionsTab({ rules }: { rules: Rules }) {
             schedule
           </li>
           <li>
-            Knockout matches (M73+) can be filled in later, before each match
-            starts
+            Knockout matches (M73+) are in the same template — update those picks
+            before each match kicks off as teams are confirmed
           </li>
           <li>Don&apos;t rename countries or remove flag emojis</li>
         </ul>

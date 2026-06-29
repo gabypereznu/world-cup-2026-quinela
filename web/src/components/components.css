@@ -151,6 +151,13 @@
   color: var(--text-muted);
 }
 
+.matches__intro {
+  margin: 0 0 1rem;
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
 .matches__filters {
   display: flex;
   flex-wrap: wrap;
