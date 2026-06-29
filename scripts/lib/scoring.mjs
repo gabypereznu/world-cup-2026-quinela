@@ -31,6 +31,7 @@ export function scoreMatch(pred, actual, rules = {}) {
 
   if (
     oneTeamExactGoalsBonus > 0 &&
+    points > 0 &&
     (homeExact || awayExact) &&
     !(skipBonusOnExactScore && isExact)
   ) {

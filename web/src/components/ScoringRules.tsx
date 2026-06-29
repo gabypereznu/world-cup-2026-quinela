@@ -8,7 +8,7 @@ export default function ScoringRules({ rules }: { rules: Rules }) {
         <li>Exact score: <strong>{rules.exactScore} pts</strong></li>
         <li>Correct goal difference: <strong>{rules.correctGoalDifference} pts</strong></li>
         <li>Correct winner or draw: <strong>{rules.correctWinnerOrDraw} pts</strong></li>
-        <li>One team exact goals: <strong>+{rules.oneTeamExactGoalsBonus} pt</strong></li>
+        <li>One team exact goals: <strong>+{rules.oneTeamExactGoalsBonus} pt</strong> (only if you already scored above)</li>
       </ul>
     </details>
   );
