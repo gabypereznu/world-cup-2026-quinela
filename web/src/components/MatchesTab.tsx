@@ -38,19 +38,19 @@ export default function MatchesTab({ matches, standings, phase }: Props) {
   const filtered =
     filter === "all" ? phaseMatches : phaseMatches.filter((m) => m.stage === filter);
 
-  const topByMatch = useMemo(() => {
+  const pointsByMatch = useMemo(() => {
     const map: Record<string, { name: string; points: number }[]> = {};
-    for (const s of standings) {
-      for (const [matchId, pts] of Object.entries(s.matchPoints)) {
-        if (!map[matchId]) map[matchId] = [];
-        map[matchId].push({ name: s.name, points: pts });
-      }
-    }
-    for (const id of Object.keys(map)) {
-      map[id].sort((a, b) => b.points - a.points);
+    for (const match of matches) {
+      if (!match.scored) continue;
+      map[match.id] = standings
+        .map((s) => ({
+          name: s.name,
+          points: s.matchPoints[match.id] ?? 0,
+        }))
+        .sort((a, b) => b.points - a.points || a.name.localeCompare(b.name));
     }
     return map;
-  }, [standings]);
+  }, [matches, standings]);
 
   return (
     <div className="matches">
@@ -80,7 +80,7 @@ export default function MatchesTab({ matches, standings, phase }: Props) {
 
       <ul className="matches__list">
         {filtered.map((match) => {
-          const tops = topByMatch[match.id]?.slice(0, 3) ?? [];
+          const players = pointsByMatch[match.id] ?? [];
           return (
             <li key={match.id} className="match-card">
               <div className="match-card__meta">
@@ -98,9 +98,9 @@ export default function MatchesTab({ matches, standings, phase }: Props) {
                 </span>
                 <span className="match-card__team match-card__team--away">{match.awayLabel}</span>
               </div>
-              {tops.length > 0 && (
+              {players.length > 0 && (
                 <div className="match-card__tops">
-                  Top: {tops.map((t) => `${t.name} (${t.points})`).join(" · ")}
+                  {players.map((t) => `${t.name} (${t.points})`).join(" · ")}
                 </div>
               )}
             </li>
