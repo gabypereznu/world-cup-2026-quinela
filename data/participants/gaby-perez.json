@@ -296,64 +296,64 @@
       "🇨🇦 Canada": 0
     },
     "M74": {
-      "🇩🇪 Germany": 0,
+      "🇩🇪 Germany": 1,
       "🇵🇾 Paraguay": 0
     },
     "M75": {
       "🇳🇱 Netherlands": 0,
-      "🇲🇦 Morocco": 0
+      "🇲🇦 Morocco": 1
     },
     "M76": {
-      "🇧🇷 Brazil": 0,
-      "🇯🇵 Japan": 0
+      "🇧🇷 Brazil": 1,
+      "🇯🇵 Japan": 2
     },
     "M77": {
-      "🇫🇷 France": 0,
+      "🇫🇷 France": 2,
       "🇸🇪 Sweden": 0
     },
     "M78": {
       "🇨🇮 Côte d'Ivoire": 0,
-      "🇳🇴 Norway": 0
+      "🇳🇴 Norway": 2
     },
     "M79": {
-      "🇲🇽 Mexico": 0,
+      "🇲🇽 Mexico": 2,
       "🇪🇨 Ecuador": 0
     },
     "M80": {
-      "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England": 0,
+      "🏴󠁧󠁢󠁥󠁮󠁧󠁿 England": 2,
       "🇨🇩 Congo DR": 0
     },
     "M81": {
-      "🇺🇸 USA": 0,
+      "🇺🇸 USA": 3,
       "🇧🇦 Bosnia and Herzegovina": 0
     },
     "M82": {
       "🇧🇪 Belgium": 0,
-      "🇸🇳 Senegal": 0
+      "🇸🇳 Senegal": 1
     },
     "M83": {
-      "🇵🇹 Portugal": 0,
+      "🇵🇹 Portugal": 1,
       "🇭🇷 Croatia": 0
     },
     "M84": {
-      "🇪🇸 Spain": 0,
+      "🇪🇸 Spain": 2,
       "🇦🇹 Austria": 0
     },
     "M85": {
-      "🇨🇭 Switzerland": 0,
+      "🇨🇭 Switzerland": 1,
       "🇩🇿 Algeria": 0
     },
     "M86": {
-      "🇦🇷 Argentina": 0,
+      "🇦🇷 Argentina": 2,
       "🇨🇻 Cabo Verde": 0
     },
     "M87": {
-      "🇨🇴 Colombia": 0,
-      "🇬🇭 Ghana": 0
+      "🇨🇴 Colombia": 2,
+      "🇬🇭 Ghana": 1
     },
     "M88": {
-      "🇦🇺 Australia": 0,
-      "🇪🇬 Egypt": 0
+      "🇦🇺 Australia": 2,
+      "🇪🇬 Egypt": 1
     },
     "M89": {
       "🏳️ Winner M74": 0,
