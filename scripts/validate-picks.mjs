@@ -70,6 +70,19 @@ function isZeroPrediction(pred) {
   return Object.values(pred).every((goals) => Number(goals) === 0);
 }
 
+function predictionGoals(pred) {
+  if (!pred) return null;
+  return Object.values(pred).map((g) => Number(g)).sort((a, b) => a - b);
+}
+
+function samePredictionGoals(a, b) {
+  const ga = predictionGoals(a);
+  const gb = predictionGoals(b);
+  if (ga === null && gb === null) return true;
+  if (!ga || !gb || ga.length !== gb.length) return false;
+  return ga.every((g, i) => g === gb[i]);
+}
+
 function changedMatchIds(oldFile, newFile) {
   const ids = new Set([
     ...Object.keys(oldFile?.predictions ?? {}),
@@ -79,7 +92,7 @@ function changedMatchIds(oldFile, newFile) {
   for (const id of ids) {
     const a = oldFile?.predictions?.[id];
     const b = newFile?.predictions?.[id];
-    if (JSON.stringify(a) === JSON.stringify(b)) continue;
+    if (samePredictionGoals(a, b)) continue;
     // New player file: all-zero rows for past matches are not treated as late picks
     if (!a && isZeroPrediction(b)) continue;
     changed.push(id);
