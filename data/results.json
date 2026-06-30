@@ -71,5 +71,8 @@
   "M70": { "home": 3, "away": 3 },
   "M71": { "home": 0, "away": 0 },
   "M72": { "home": 3, "away": 1 },
-  "M73": { "home": 0, "away": 1 }
+  "M73": { "home": 0, "away": 1 },
+  "M74": { "home": 1, "away": 1 },
+  "M75": { "home": 1, "away": 1 },
+  "M76": { "home": 2, "away": 1 }
 }
