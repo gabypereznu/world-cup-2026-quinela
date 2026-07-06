@@ -708,81 +708,72 @@
       "id": "M89",
       "date": "2026-07-04",
       "stage": "Round of 16",
-      "home": "Winner M74",
-      "away": "Winner M77",
-      "placeholder": true,
+      "home": "Paraguay",
+      "away": "France",
       "kickoff": "2026-07-04T17:00:00Z"
     },
     {
       "id": "M90",
       "date": "2026-07-04",
       "stage": "Round of 16",
-      "home": "Winner M73",
-      "away": "Winner M75",
-      "placeholder": true,
+      "home": "Canada",
+      "away": "Morocco",
       "kickoff": "2026-07-04T20:00:00Z"
     },
     {
       "id": "M91",
       "date": "2026-07-05",
       "stage": "Round of 16",
-      "home": "Winner M76",
-      "away": "Winner M78",
-      "placeholder": true,
+      "home": "Brazil",
+      "away": "Norway",
       "kickoff": "2026-07-05T17:00:00Z"
     },
     {
       "id": "M92",
       "date": "2026-07-05",
       "stage": "Round of 16",
-      "home": "Winner M79",
-      "away": "Winner M80",
-      "placeholder": true,
+      "home": "Mexico",
+      "away": "England",
       "kickoff": "2026-07-05T20:00:00Z"
     },
     {
       "id": "M93",
       "date": "2026-07-06",
       "stage": "Round of 16",
-      "home": "Winner M83",
-      "away": "Winner M84",
-      "placeholder": true,
+      "home": "Portugal",
+      "away": "Spain",
       "kickoff": "2026-07-06T17:00:00Z"
     },
     {
       "id": "M94",
       "date": "2026-07-06",
       "stage": "Round of 16",
-      "home": "Winner M81",
-      "away": "Winner M82",
-      "placeholder": true,
+      "home": "USA",
+      "away": "Belgium",
       "kickoff": "2026-07-06T20:00:00Z"
     },
     {
       "id": "M95",
       "date": "2026-07-07",
       "stage": "Round of 16",
-      "home": "Winner M86",
-      "away": "Winner M88",
-      "placeholder": true,
+      "home": "Argentina",
+      "away": "Egypt",
       "kickoff": "2026-07-07T17:00:00Z"
     },
     {
       "id": "M96",
       "date": "2026-07-07",
       "stage": "Round of 16",
-      "home": "Winner M85",
-      "away": "Winner M87",
-      "placeholder": true,
+      "home": "Switzerland",
+      "away": "Colombia",
       "kickoff": "2026-07-07T20:00:00Z"
     },
     {
       "id": "M97",
       "date": "2026-07-09",
       "stage": "Quarter-final",
-      "home": "Winner M89",
-      "away": "Winner M90",
-      "placeholder": true,
+      "home": "France",
+      "away": "Morocco",
       "kickoff": "2026-07-09T17:00:00Z"
     },
     {
@@ -798,9 +789,8 @@
       "id": "M99",
       "date": "2026-07-11",
       "stage": "Quarter-final",
-      "home": "Winner M91",
-      "away": "Winner M92",
-      "placeholder": true,
+      "home": "Norway",
+      "away": "England",
       "kickoff": "2026-07-11T17:00:00Z"
     },
     {
