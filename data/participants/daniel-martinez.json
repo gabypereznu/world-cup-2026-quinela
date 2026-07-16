@@ -412,12 +412,12 @@
       "🏳️ Winner M100": 1
     },
     "M103": {
-      "🏳️ Runner-up M101": 0,
+      "🏳️ Runner-up M101": 1,
       "🏳️ Runner-up M102": 0
     },
     "M104": {
-      "🏳️ Winner M101": 0,
-      "🏳️ Winner M102": 0
+      "🏳️ Winner M101": 2,
+      "🏳️ Winner M102": 1
     }
   }
 }
